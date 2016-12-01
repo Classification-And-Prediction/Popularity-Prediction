@@ -3,11 +3,11 @@ import numpy as np
 from sklearn.cross_validation import train_test_split
 import re, nltk        
 from nltk.stem.porter import PorterStemmer
-from nltk.stem.snowball import SnowballStemmer
-from nltk.stem import WordNetLemmatizer
+# from nltk.stem.snowball import SnowballStemmer
+# from nltk.stem import WordNetLemmatizer
 import random
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import *
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.naive_bayes import *
 from sklearn.svm import *
 from sklearn import svm
 from sklearn.cross_validation import cross_val_score
